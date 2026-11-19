@@ -10,9 +10,9 @@ logger = logging.getLogger(__name__)
 
 # ---------- constants ----------
 SIGN_KEY = "tiebaclient!!!"
-TBS_URL = "http://tieba.baidu.com/dc/common/tbs"
-LIKE_URL = "http://c.tieba.baidu.com/c/f/forum/like"
-SIGN_URL = "http://c.tieba.baidu.com/c/c/forum/sign"
+TBS_URL = "https://tieba.baidu.com/dc/common/tbs"
+LIKE_URL = "https://c.tieba.baidu.com/c/f/forum/like"
+SIGN_URL = "https://c.tieba.baidu.com/c/c/forum/sign"
 
 HEADERS = {
     "User-Agent": (
